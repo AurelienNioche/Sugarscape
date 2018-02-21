@@ -414,7 +414,7 @@ class Window(object):
 
         else:
             print("Display mode!")
-            self.animation = FuncAnimation(self.fig, self.run_one_time_step, interval=2)
+            self.animation = FuncAnimation(self.fig, self.run_one_time_step, interval=60)
 
         if self.mode != Mode.save_video:
 
